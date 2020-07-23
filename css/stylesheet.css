@@ -1,0 +1,31 @@
+/*Tag selectors*/
+body{
+    background-color: #dfd3c3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+h1{
+    color: chocolate;
+    font-family: 'Sacramento', cursive;
+    font-size: 562.5%;
+}
+h2{
+    color: chocolate;
+    font-family: 'Merienda',cursive;
+}
+h3{
+    color: chocolate;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    height: 0px;
+    border-color: grey;
+    border-width: 2px;
+    width: 5%;
+}
+/*Class selectors*/
+.about{
+    font-family: 'Montserrat', sans-serif;
+}
