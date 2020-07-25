@@ -96,7 +96,7 @@ span{
 	background-color:#997840;
 }
 .myButton:active {
-	position:relative;
+	position: relative;
 	top:1px;
 }
 .skills-row{
@@ -116,6 +116,7 @@ span{
 
 #about-img{
     width: 10rem;
+    display: inline-block;
     float: left;
     margin-right: 20px;
 }
@@ -138,12 +139,14 @@ span{
 #img1{
     border: chocolate solid;
     border-radius: 50%;
+    display: inline-block;
     float: left;
     margin-right: 20px;
 }
 #img2{
     border: chocolate solid;
     border-radius: 50%;
+    display: inline-block;
     float: right;
     margin-left: 20px;
 }
