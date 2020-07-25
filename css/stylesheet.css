@@ -21,7 +21,6 @@ h2{
     color: chocolate;
     font-family: 'Merienda',cursive;
     font-weight: normal;
-    line-height: 5%;
 }
 h3{
     color: chocolate;
@@ -102,7 +101,7 @@ span{
 }
 .skills-row{
     width: 50%;
-    margin: 100px auto 100px auto;
+    margin: 50px auto 100px auto;
     text-align: left;
 }
 .top-container{
@@ -150,6 +149,7 @@ span{
 }
 #my-skills{
     display: inline-block;
+    font-size: 200%;
 }
 #tagline{
     font-family: 'Architects Daughter', cursive;
