@@ -1,80 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sirisha's  Portfolio</title>
-        <link rel="icon" href="images/favicon.ico">
-        <link rel="stylesheet" href="css/stylesheet.css">
-        <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">  
-    </head>
-    <body>
-        <div class="top-container">
-          <img id="Cam-drone" src="images/camera-drone.png" alt="bird1">
-          <h1>Sirisha Nippani</h1>
-          <p id="tagline">A software <span>Pro</span>grammer with crush on hardware</p>
-          <img id="drone" src="images/fly.png" alt="bird2">
-          <img src="images/mountain.png" alt="river">
-        </div>
+<html>
 
-        <div class="middle-container">
-          <div class="about-me">
-            <img id="about-img" src="https://media.giphy.com/media/1dPKqD8HqzmfxEUzzZ/giphy.gif" alt="about-me-gif">
-            <h2>About me</h2>
-            <p class="about">
-              I am a hardworking CS based student also fasinated about Robotics.
-              Throughtout my 3 yrs of B.Tech I have participated in various events conducted in different regions of the country and have experimented with many differentpragramming languages.
-            </p>
-          </div>
-          <hr>
-          <div class="skills">
-            <img id="tech-skills" src="https://media.giphy.com/media/d9IfL7seBexHLct75B/giphy.gif" alt="tech-skills-gif">
-            <h2 id="my-skills">Some of My Works.</h2>
-            <div class="skills-row">
-              <img id="img1" src="images/qr-code.png" alt="scan-pic">
-              <h4>Linear equation OCR</h4>
-              <p>
-                A simple tesseract based program which reads simultaneous linear equations from a picture and gives it's solution.
-                Written in python and in a pre-develpement stage.
-              </p>
-            </div>
-            <div class="skills-row">
-              <img id="img2" src="images/drone.png" alt="drone-pic">
-              <h4>FPV Drone</h4>
-              <p>
-                An fpv racing drone which can fly at high speeds. Made with best in class parts with various complex communication protocols.
-                Using STM32 f4 processor and one of the best fpv camera runcam micro eagle.
-              </p>
-            </div>
-            <p>
-              
-            </p>
-          </div>
-          <hr>
-          <div class="contact-me">
-            <h2>Get In Touch</h2>
-            <h3>In case my work caught your eye.</h3>
-            <p id="contact-me-desc">Need any help?Your requirements match my skills?</p>
-            <a class="myButton" href="mailto:sirishanippani28@gmail.com">CONTACT ME</a>
+<head>
+  <meta charset="utf-8">
+  <title>Sirisha's Personal Site</title>
+  <link rel="icon" href="images/favicon.ico">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+  <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" data-auto-replace-svg="nest"></script>
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: white;">
+        <a class="navbar-brand" href="index-2.html">
+          <img src="images/logo-2 removed.png" alt="">
+          <img src="images/logo-side-removed.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="">Projects</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                CV
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Preview CV</a>
+                <a class="dropdown-item" href="#">Download PDF</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Hire Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-md-7"> 
+          <div>
+            <h1 id="top-line-1">i am</h1>
+            <h1 id="top-line-2">SiRiSHA</h1>
+            <p id="tagline">A Programmer,A Web Developer,A Robotist,A Tech enthusiast</p>
           </div>
         </div>
-    
-        <div class="bottom-container">
-          <a class="footer-link" href="https://www.linkedin.com/in/sirisha-nippani-6b918b167/">LinkedIn</a>
-          <a class="footer-link" href="https://github.com/sirishanippani">Github</a>
-          <a class="footer-link" href="Resources.html">Resources</a>
-          <div>
-            Icons made by 
-            <a href="https://www.flaticon.com/authors/itim2101" title="itim2101">itim2101</a>from 
-            <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-          </div>
-          <div>
-            Icons made by 
-            <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>from
-            <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-          </div>
-          <p id="footer-cc">© 2018 Sirisha.</p>
+        
+        <div class="col-md-5">
+          <img src="images/home-right-2.png" alt="girl-code">
         </div>
-    </body>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- About Me -->
+
+  <section id="About Me">
+
+    <p>
+      I am a hardworking CS based student also fasinated about Robotics.
+      Throughtout my 3 yrs of B.Tech I have participated in various events conducted in different regions of the country and have experimented with many different programming languages.
+    </p>
+
+  </section>
+
+
+
+
+
+  <!-- Projects -->
+
+    <img src="images/qr-code.png" alt="scan-pic">
+    <h4>Linear equation OCR</h4>
+    <p>
+      A simple tesseract based program which reads simultaneous linear equations from a picture and gives it's solution.
+      Written in python and in a pre-develpement stage.
+    </p>
+
+    <img id="img2" src="images/drone.png" alt="drone-pic">
+    <h4>FPV Drone</h4>
+    <p>
+      An fpv racing drone which can fly at high speeds. Made with best in class parts with various complex communication protocols.
+      Using STM32 f4 processor and one of the best fpv camera runcam micro eagle.
+    </p>    
+
+  </section>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <button type="button" class="btn btn-outline-dark btn-lg"><i class="fas fa-info-circle"></i>Contact Me</button>
+    <div>
+      Logo made by 
+      <a href="https://www.designevo.com/logo-maker/" title="Free Online Logo Maker">
+        DesignEvo free logo creator
+      </a>
+    </div>
+    <p>© Copyright Sirisha</p>
+
+  </footer>
+
+
+</body>
+
 </html>
