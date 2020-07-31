@@ -1,0 +1,49 @@
+
+/*.ctme{
+    
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #4458dc, #854fee);
+    border: 2px solid transparent;
+    color: #222222;
+    box-shadow: none;
+}
+.ctme:hover{
+    text-decoration: none;
+    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+    border: double 2px transparent;
+    color: #ffffff;
+    box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3); 
+}*/
+.navbar{
+    padding-bottom: 2rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.row{
+    height: 100%;
+    width: 100%;
+    background: url("../images/home-banner-2.png");
+}
+
+#tagline{
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+
+}
+#top-line-1{
+    font-family: 'Cinzel Decorative', cursive;
+    margin-top: 8rem;
+    font-size: 3rem;
+    padding-left: 5rem;
+}
+#top-line-2{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 7rem;
+    padding-left: 4.5rem;
+}
