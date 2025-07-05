@@ -1,18 +1,18 @@
-# 💼 Sirisha Nippani – Portfolio Website
+# Sirisha Nippani – Portfolio Website
 
 Welcome to my personal portfolio website!  
 This site showcases my skills, projects, and journey as a software developer.
 
-🔗 **Live Site:** [sirishanippani.github.io/CV](https://sirishanippani.github.io/CV)
+**Live Site:** [sirishanippani.github.io/CV](https://sirishanippani.github.io/CV)
 
 
-## 📌 About
+## About
 
 This portfolio highlights my background in Computer Science and my passion for building clean, efficient, and scalable software. It features selected projects, technical expertise, and professional achievements in a minimalist design.
 
 
 
-## 🛠️ Built With
+## Built With
 
 - HTML5 – Semantic structuring
 - CSS3 – Styling and layout
@@ -21,7 +21,7 @@ This portfolio highlights my background in Computer Science and my passion for b
 
 
 
-## 🚀 Getting Started
+## Getting Started
 
 ### To view the portfolio:
 
@@ -39,7 +39,7 @@ Then open the `index.html` file in your browser.
 
 
 
-## 📂 Features
+## Features
 
 - Responsive design for desktop and mobile
 - Project highlights with live links
@@ -48,7 +48,7 @@ Then open the `index.html` file in your browser.
 
 
 
-## 📬 Contact
+## Contact
 
 - **LinkedIn:** [linkedin.com/in/sirisha-nippani](https://www.linkedin.com/in/sirisha-nippani/)
 - **Email:** sirishanippani28@gmail.com
